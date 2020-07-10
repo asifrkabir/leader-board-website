@@ -1,3 +1,5 @@
+/* General */
+
 body{
     background-color: #F3F1FF;
     font-family: 'Poppins', sans-serif;
@@ -6,36 +8,33 @@ body{
 section{
     margin-top: 20px;
     border-radius: 10px;
+    background-color: #fff;
 }
 
 main{
     max-width: 870px;
 }
 
-header{
-    background-color: #562EFF;
-}
-
 .section-heading{
     color: #562EFF;
+    font-weight: bold;
 }
 
-.navbar{
-    margin: auto;
-    max-width: 870px;
+/* Header */
+
+header{
+    background-color: #562EFF;
 }
 
 .navbar li{
     margin-left: 20px;
 }
 
-.top-player{
-    background-color: #fff;
-}
-
 .navbar img{
     width: 40px;
 }
+
+/* Top Players */
 
 .player img{
     width: 56px;
@@ -45,3 +44,28 @@ header{
     font-weight: bold;
     margin: auto 0;
 }
+
+hr{
+    width: 95%;
+}
+
+/* Top Blogs */
+
+.blog{
+    padding-bottom: 10px;
+}
+
+.blogs img{
+    width: 180px;
+}
+
+.blogs p{
+    font-weight: 600;
+}
+
+.text-purple{
+    color: #4f32d1;
+    font-weight: 500;
+}
+
+/* Latest Courses */
