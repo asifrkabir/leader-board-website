@@ -1,0 +1,33 @@
+body{
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    max-width: 870px;
+}
+
+header{
+    background-color: #562EFF;
+}
+
+.navbar{
+    margin: auto;
+    max-width: 870px;
+}
+
+.navbar li{
+    margin-left: 20px;
+}
+
+.top-player{
+    background-color: #fff;
+}
+
+.navbar img{
+    width: 40px;
+}
+
+.player img{
+    width: 56px;
+}
