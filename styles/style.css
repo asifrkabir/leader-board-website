@@ -1,4 +1,8 @@
 /* General */
+html{
+    scroll-behavior: smooth;
+}
+
 
 body{
     background-color: #F3F1FF;
@@ -70,29 +74,24 @@ hr{
 
 /* Latest Courses */
 
-.latest-courses .card-img-top{
-    width: 90%;
-    margin: 10px auto;
+.latest-courses .course-img{
+    width: 100%;
+    margin: 0px auto 20px auto;
 }
 
-.card{
-    border: none;
+.course{
     box-shadow: 0px 0px 10px rgb(228, 228, 228);
     border-radius: 20px;
+    padding: 20px;
 }
 
-.card-body{
-    padding-bottom: 0px;
+.course-text{
+    font-weight: 700;
 }
 
 .text-red{
     color: #ED6B4F;
     font-weight: 500;
-}
-
-.card-footer{
-    border-top: none;
-    background-color: #fff;
 }
 
 .icon-small{
