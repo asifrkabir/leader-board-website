@@ -3,12 +3,21 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+section{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
 main{
     max-width: 870px;
 }
 
 header{
     background-color: #562EFF;
+}
+
+.section-heading{
+    color: #562EFF;
 }
 
 .navbar{
@@ -30,4 +39,9 @@ header{
 
 .player img{
     width: 56px;
+}
+
+.player .player-name{
+    font-weight: bold;
+    margin: auto 0;
 }
